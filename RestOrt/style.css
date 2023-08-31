@@ -1,0 +1,48 @@
+.Foto-Comida{
+  height: 50px;
+  width: 50px;
+
+}
+a {
+  text-decoration: none !important;
+  color: black !important;
+  font-weight: bold;
+}
+body{
+    /* background-image: url("https://www.cronista.com/files/image/297/297834/5ffe0ccbcdf03_950_534!.jpg?s=bd2af824cfc16fb35e69a4a863082985&d=1557284400"); */
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(175, 172, 172);
+  padding: 10px;
+}
+.centrar {
+  text-align: center;
+  margin-top: 15px;
+}
+.logo {
+  display: flex;
+}
+.links {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+.comida {
+  display: flex;
+  justify-content: space-center;
+  align-items: center;
+  background-color: bisque;
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 15px;
+  margin-top: 10px;
+}
+.precio {
+  margin-left: 15px;
+}
+#fotoresto {
+  margin-left: 5%;
+  width: 90%;
+}
